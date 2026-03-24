@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  riak:
+    image: basho/riak-kv
+    container_name: riak
+    ports:
+      - "8098:8098"
+      - "8087:8087"
